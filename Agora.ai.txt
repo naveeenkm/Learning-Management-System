@@ -1,0 +1,29 @@
+Agora.ai
+Basic Flow for AI Interview + Agora Integration
+Start Video Interview:
+
+1.Use Agora’s SDK to start a video session.
+
+Candidate joins the interview room.
+
+Record the Session (Optional):
+
+Use Agora Cloud Recording to capture the video/audio.
+
+Store the recording for evaluation.
+
+Send Video/Audio to AI Interviewer API:
+
+Once the interview is over, send the recording or live stream data to an AI service.
+
+Services like Symbl.ai, AssemblyAI, or Deepgram can process video/audio and return insights or scores.
+
+Get Score & Display:
+
+The API will return analysis (confidence, fluency, filler words, topic detection, etc.).
+
+Show the score/result in your UI using React.
+
+
+
+parakeetai
